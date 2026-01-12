@@ -1,12 +1,12 @@
 {
   "general": {
-    "ticker": "MSTR",
-    "simulate": false,
-    "mostRecent": false,
-    "interval": "1d",
-    "timePeriod": "2y",
-    "startDate": "2022-01-01",
-    "endDate": "2025-01-01",
+    "ticker": "ETH",
+    "simulate": true,
+    "mostRecent": true,
+    "interval": "15m",
+    "timePeriod": "3m",
+    "startDate": "2025-11-30",
+    "endDate": "2025-12-30",
     "addCsv": false,
     "dummyData": false,
     "dummyCsvFileName": "data.csv",
@@ -14,12 +14,12 @@
   },
   "indicators": {
     "maPeriod": 50,
-    "rsiPeriod": 12,
-    "atrPeriod": 22,
+    "rsiPeriod": 11,
+    "atrPeriod": 21,
     "stdDevPeriod": 26
   },
   "simulate": {
-    "simulations": 1000,
+    "simulations": 100,
     "simBestBacktests": false,
     "writeBacktestsToJSON": true,
     "addToTopResults": true,
@@ -28,17 +28,17 @@
   "account": {
     "initialBalance": 10000,
     "baseOrderValue": 1000,
-    "maxOrderValue": 2923,
+    "maxOrderValue": 6415,
     "maxConcurrentPositions": 5
   },
   "multipliers": {
-    "buyMultiplier": 1.7176795380083851,
-    "bandMultiplier": 1.5931461068916148,
-    "stoplossAtrMultiplier": 1.68,
-    "takeprofitAtrMultiplier": 3.33
+    "buyMultiplier": 1.2596408907575833,
+    "bandMultiplier": 1.9656228283413446,
+    "stoplossAtrMultiplier": 1.62,
+    "takeprofitAtrMultiplier": 3.21
   },
   "strategy1": {
-    "A": 3.61,
-    "B": 1.42
+    "A": 3.72,
+    "B": 1.67
   }
 }

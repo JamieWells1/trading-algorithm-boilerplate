@@ -106,7 +106,9 @@ def indicators(account, data):
 
         current_close = candles[i]["close"]
         account.open_position_amount = account.shares_owned * current_close
-        account.balance_absolute = account.uninvested_balance + account.open_position_amount
+        account.balance_absolute = (
+            account.uninvested_balance + account.open_position_amount
+        )
         account.profit = account.balance_absolute - config["account"]["initialBalance"]
         data.ongoing_balance.append(account.balance_absolute)
 

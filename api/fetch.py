@@ -4,6 +4,9 @@ import pandas as pd
 import logging
 import time
 
+# Set cache location to avoid Yahoo Finance blocking
+yf.set_tz_cache_location("/tmp/yfinance_cache")
+
 
 # AAPL, "15m", "2024-12-11", "2024-12-18"
 def get_df_selected_tf(

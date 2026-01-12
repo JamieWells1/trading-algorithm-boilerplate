@@ -125,8 +125,8 @@ Strategy enters when recent price decline exceeds a logarithmically-scaled thres
 ### Installation
 
 ```bash
-git clone https://github.com/JamieWells1/trading-algorithm-boilerplate.git
-cd trading-algorithm-boilerplate
+git clone https://github.com/JamieWells1/qaunt-trading-backtester.git
+cd qaunt-trading-backtester
 python3 -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -257,6 +257,6 @@ Results are printed to console and saved to JSON with full parameter configurati
 
 Pull requests welcome. For major changes, open an issue first to discuss proposed modifications.
 
-**Contact:** [GitHub Issues](https://github.com/JamieWells1/trading-algorithm-boilerplate/issues)
+**Contact:** [GitHub Issues](https://github.com/JamieWells1/qaunt-trading-backtester/issues)
 
 MIT License
